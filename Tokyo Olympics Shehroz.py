@@ -12,7 +12,7 @@ from pyspark.sql import functions as F
 configs = {"fs.azure.account.auth.type": "OAuth",
 "fs.azure.account.oauth.provider.type": "org.apache.hadoop.fs.azurebfs.oauth2.ClientCredsTokenProvider",
 "fs.azure.account.oauth2.client.id": "5c975aff-8753-41ef-9aef-deb3a6b0ede3",
-"fs.azure.account.oauth2.client.secret": 'A2H8Q~PVTifOfsAVgfs.ayqOek6z43FkNs6TncSc',
+"fs.azure.account.oauth2.client.secret": '',
 "fs.azure.account.oauth2.client.endpoint": "https://login.microsoftonline.com/60aaf3c6-3a32-43e6-a365-065b0dbae959/oauth2/token"}
 
 dbutils.fs.mount(
